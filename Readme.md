@@ -76,4 +76,13 @@ kubectl delete deployment webapp-deployment
 kubectl get configmap kubeclt delete configmap mongo-config
 ```
 
+```jsx
+kubectl get service 
+```
+
+IMPORTANT (To open Nodeport on borwser)
+```jsx
+minikube service <Service Name (webapp-service)> 
+```
+
 #acessable => [http://192.168.49.2:30100/](http://192.168.49.2:30100/)
